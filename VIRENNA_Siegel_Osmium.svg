@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="600" height="600" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" role="img" aria-label="VIRENNA medizinisch validiertes Siegel – weltweit einzigartig">
+  <title>VIRENNA medizinisch validiertes Siegel – weltweit einzigartig</title>
+  <style type="text/css"><![CDATA[
+    @media (prefers-reduced-motion: reduce) {
+      .aura {
+        animation: none !important;
+      }
+    }
+    @keyframes pulse {
+      0% { opacity: 0.8; }
+      50% { opacity: 1; }
+      100% { opacity: 0.8; }
+    }
+    .aura {
+      animation: pulse 1.8s ease-in-out infinite;
+    }
+    .glow {
+      fill: gold;
+      filter: drop-shadow(0 0 10px gold);
+    }
+  ]]></style>
+
+  <g id="core_siegel">
+    <circle cx="300" cy="300" r="250" stroke="gold" stroke-width="10" fill="none" />
+    <g id="layer_typografie">
+      <text x="300" y="300" font-size="40" font-family="Arial" fill="black" text-anchor="middle" dominant-baseline="central">VIRENNA</text>
+      <text x="300" y="340" font-size="20" font-family="Arial" fill="black" text-anchor="middle">validiert</text>
+    </g>
+  </g>
+
+  <g id="layer_medizin">
+    <text x="300" y="100" font-size="18" font-family="Arial" fill="gray" text-anchor="middle">medizinisch validiert</text>
+    <text x="300" y="550" font-size="18" font-family="Arial" fill="gray" text-anchor="middle">weltweit einzigartig</text>
+  </g>
+
+  <g id="layer_halo">
+    <circle class="aura" cx="300" cy="300" r="270" fill="gold" opacity="0.2"/>
+  </g>
+
+  <g id="layer_aura_text">
+    <text x="300" y="300" font-size="42" font-family="Arial" fill="gold" text-anchor="middle" dominant-baseline="central" class="glow">VIRENNA</text>
+  </g>
+</svg>
